@@ -10,5 +10,6 @@ Technologies I used for this project:
 - SASS
 - Webpack
 - Javascript
+- Typescript
 - React
 
