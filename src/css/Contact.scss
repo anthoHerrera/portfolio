@@ -1,0 +1,60 @@
+.contact__container {
+    background-color: #ecf0f1;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 5rem;
+    padding-top: 12vh;
+    display: grid;
+    grid-template-columns: 3fr;
+    align-items: center;
+
+    h1 {
+        font-size: 2.3rem;
+        font-family: "Crimson Text", serif;
+    }
+
+    .container__icons {
+        font-family: "Work Sans", sans-serif;
+        font-size: 1.2rem;
+        margin: 2rem 0px;
+        display: flex;
+        flex-direction: column;
+
+        .info__icon {
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            .icon {
+                font-size: 2.5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .code__accounts {
+        margin: 2rem 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .social__icon {
+            font-size: 2rem;
+
+            .icon__github {
+                font-size: 2.7rem;
+                color: black;
+            }
+            .icon__codewars {
+                font-size: 2.7rem;
+                padding: 0.2rem;
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+            }
+            .icon__linkedlin {
+                font-size: 2.7rem;
+                color: #0A66C2;
+            }
+        }
+    }
+}

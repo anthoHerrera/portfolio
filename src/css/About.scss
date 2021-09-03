@@ -1,0 +1,76 @@
+.about__container {
+    background-color: #ecf0f1;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 5rem;
+    padding-top: 12.5vh;
+    .me__container {
+        margin-bottom: 2rem;
+        h1 {
+            font-size: 2.5rem;
+            font-family: "Crimson Text", serif;
+        }
+        p {
+            width: 100%;
+            font-size: 1.1rem;
+            text-align: justify;
+            font-family: "Work Sans", sans-serif;
+            margin: 1rem 0px;
+        }
+    }
+
+    .skills__container {
+        h1 {
+            font-size: 2.3rem;
+            font-family: "Crimson Text", serif;
+        }
+        .skill {
+            padding: 1rem;
+
+            .bar {
+                margin: 1rem 0px;
+                background-color: #bdbdbd;
+                width: 100%;
+                min-height: 30px;
+                .percent {
+                    background-color: #424242;
+                    min-height: 30px;
+                }
+            }
+        }
+    }
+
+    .technologies__container {
+        h1 {
+            font-size: 2.3rem;
+            font-family: "Crimson Text", serif;
+        }
+        .test {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            .tech {
+                padding: 1rem;
+                img {
+                    width: 13%;
+                    display: block;
+                    margin: 0px auto;
+                }
+                .bar {
+                    margin: 1rem 0px;
+                    background-color: #bdbdbd;
+                    width: 100%;
+                    min-height: 30px;
+                    .percent {
+                        background-color: #424242;
+                        min-height: 30px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

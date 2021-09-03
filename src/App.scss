@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Work+Sans&display=swap");
+
+#app {
+    display: grid;
+}
+
+.header__app {
+    position: fixed;
+    width: 100%;
+    background-color: #bdc3c7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+
+    .logo__name {
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                padding: 5px 15px;
+
+                a {
+                    font-family: "Work Sans", sans-serif;
+                    text-decoration: none;
+                    color: #2c3e50;
+                    font-size: 1.1rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                        font-size: 1.2rem;
+                        background-color: #ecf0f1;
+                        padding: 1.6rem;
+                    }
+
+                    .icons {
+                        margin-right: 5px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
