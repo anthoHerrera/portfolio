@@ -33,9 +33,10 @@ const filterInfo = [
 
 const myProjects = [
     {
-        title: "Random Quote",
+        title: "Random Quote Machine",
         img_url: require("/src/assets/images/random.jpg"),
         project_url: "https://github.com/anthoHerrera/random-quote-machine",
+        app_url: "https://anthoherrera.github.io/random-quote-machine/",
         labels: ["HTML", "CSS", "REACT", "JAVASCRIPT"],
     },
 
@@ -43,24 +44,28 @@ const myProjects = [
         title: "Drum Machine",
         img_url: require("/src/assets/images/drum.jpg"),
         project_url: "https://github.com/anthoHerrera/drum-machine",
+        app_url: "https://anthoherrera.github.io/drum-machine/",
         labels: ["HTML", "CSS", "REACT", "JAVASCRIPT"],
     },
     {
         title: "Markdown Previewer",
         img_url: require("/src/assets/images/markdown.jpg"),
         project_url: "https://github.com/anthoHerrera/markdownPreviewer",
+        app_url: "https://anthoherrera.github.io/markdownPreviewer/",
         labels: ["HTML", "SASS", "REACT", "TYPESCRIPT"],
     },
     {
         title: "Calculator",
         img_url: require("/src/assets/images/calc.jpg"),
         project_url: "https://github.com/anthoHerrera/react-calculator",
+        app_url: "https://anthoherrera.github.io/react-calculator/",
         labels: ["HTML", "SASS", "REACT", "TYPESCRIPT"],
     },
     {
         title: "25 + 5 Clock",
         img_url: require("/src/assets/images/clock.jpg"),
         project_url: "https://github.com/anthoHerrera/clock_25_add_5",
+        app_url: "https://25-add-5-clock.netlify.app/",
         labels: ["HTML", "SASS", "REACT", "TYPESCRIPT"],
     },
 ];
@@ -130,6 +135,7 @@ export class Projects extends Component<ProjectsProps, ProjectsState> {
                                 imgUrl={proj.img_url}
                                 title={proj.title}
                                 projectUrl={proj.project_url}
+                                app_url={proj.app_url}
                                 labels={proj.labels}
                             />
                         ))}

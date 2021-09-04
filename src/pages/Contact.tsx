@@ -37,7 +37,7 @@ function Contact() {
                         <a
                             href="https://github.com/anthoHerrera"
                             title="Github"
-                            target="__blank"
+                            target="_blank"
                         >
                             <FaGithub className="icon__github" />
                         </a>
@@ -46,7 +46,7 @@ function Contact() {
                         <a
                             href="https://www.codewars.com/users/anthoHerrera"
                             title="Codewars"
-                            target="__blank"
+                            target="_blank"
                         >
                             <SiCodewars className="icon__codewars" />
                         </a>
@@ -55,7 +55,7 @@ function Contact() {
                         <a
                             href="https://www.linkedin.com/in/anthony-herrera-cruz-43b620172/"
                             title="Linkedin"
-                            target="__blank"
+                            target="_blank"
                         >
                             <FaLinkedin className="icon__linkedlin" />
                         </a>
