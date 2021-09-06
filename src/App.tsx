@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
 import { FaUserAlt, FaCode, FaEnvelope } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import NavBar from "./NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -13,37 +15,7 @@ function App() {
     return (
         <Router>
             <div id="app">
-                <header className="header__app">
-                    <div className="logo__name">Anthony Herrera</div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">
-                                    <IoHome className="icons" />
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/about">
-                                    <FaUserAlt className="icons" />
-                                    About me
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/projects">
-                                    <FaCode className="icons" />
-                                    Projects
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/contact">
-                                    <FaEnvelope className="icons" />
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
+            <NavBar />
                 <Switch>
                     <Route exact path="/">
                         <Home />
