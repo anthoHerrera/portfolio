@@ -69,6 +69,7 @@
 
         .navbar__links {
             margin: 0.5rem 0rem;
+            display: none;
             ul {
                 display: flex;
                 flex-direction: column;
@@ -96,6 +97,7 @@
                 }
             }
         }
+        
         .menu__icon {
             font-size: 1.3rem;
             margin-right: 1rem;
@@ -106,3 +108,4 @@
         }
     }
 }
+

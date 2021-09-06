@@ -27,7 +27,9 @@ export class NavBar extends Component<NavBarProps, NavBarState> {
 
     handleClick(e: any): void {
         e.preventDefault();
-        this.setState({ open: !this.state.open });
+        this.setState({
+            open: !this.state.open,
+        });
     }
 
     render() {
@@ -36,17 +38,14 @@ export class NavBar extends Component<NavBarProps, NavBarState> {
         ) : (
             <GiHamburgerMenu />
         );
+
         return (
             <React.Fragment>
                 <header className="navbar__app">
                     <div className="logo__name">Anthony Herrera</div>
                     <nav
-                        className="navbar__links"
-                        style={
-                            this.state.open
-                                ? { display: "block" }
-                                : { display: "none" }
-                        }
+                        className='navbar__links'
+                        style={this.state.open ? { display: "block" } : {}}
                     >
                         <ul>
                             <li>
