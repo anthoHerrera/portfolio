@@ -47,7 +47,7 @@
             font-size: 2.3rem;
             font-family: "Crimson Text", serif;
         }
-        .test {
+        .tech__contain {
             display: grid;
             grid-template-columns: 1fr 1fr;
             justify-content: center;
@@ -67,7 +67,54 @@
                     .percent {
                         background-color: #424242;
                         min-height: 30px;
-                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .about__container {
+        .me__container {
+        }
+
+        .skills__container {
+            h1 {
+            }
+            .skill {
+                .bar {
+                    .percent {
+                    }
+                }
+            }
+        }
+
+        .technologies__container {
+            h1 {
+                font-size: 2.3rem;
+                font-family: "Crimson Text", serif;
+            }
+            .tech__contain {
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;
+                align-items: center;
+                .tech {
+                    padding: 1rem;
+                    img {
+                        width: 13%;
+                        display: block;
+                        margin: 0px auto;
+                    }
+                    .bar {
+                        margin: 1rem 0px;
+                        background-color: #bdbdbd;
+                        width: 100%;
+                        min-height: 30px;
+                        .percent {
+                            background-color: #424242;
+                            min-height: 30px;
+                        }
                     }
                 }
             }

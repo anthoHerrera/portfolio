@@ -42,7 +42,7 @@ const technologies = [
     },
     {
         text: "SASS",
-        percent: 45,
+        percent: 40,
         url: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png",
     },
     {
@@ -112,7 +112,7 @@ function About() {
                 <div className="technologies__container">
                     <h1>Technologies</h1>
                     <hr />
-                    <section className="test">
+                    <section className="tech__contain">
                         {technologies.map((tech, idx) => (
                             <Technology
                                 key={idx}
